@@ -30,39 +30,39 @@
     <nav class="nav nav-underline justify-content-between">
       <a class="nav-item nav-link link-body-emphasis active" href="#">Home</a>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Category
+        <a class="nav-link dropdown-toggle" id="kategoriDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Category
         </a>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Hukum Tata Negara</a></li>
-            <li><a class="dropdown-item" href="#">Hukum Adat</a></li>
-            <li><a class="dropdown-item" href="#">Hukum Perdata</a></li>
-            <li><a class="dropdown-item" href="#">Hukum Dagang</a></li>
+        <ul class="dropdown-menu" aria-labelledby="kategoriDropdown">
+            <li><a class="dropdown-item" href="#" onclick="showArticles('hukum-tata-negara')">Hukum Tata Negara</a></li>
+            <li><a class="dropdown-item" href="#" onclick="showArticles('hukum-adat')">Hukum Adat</a></li>
+            <li><a class="dropdown-item" href="#" onclick="showArticles('hukum-perdata')">Hukum Perdata</a></li>
+            <li><a class="dropdown-item" href="#" onclick="showArticles('hukum-dagang')">Hukum Dagang</a></li>
         </ul>
-      </li>
+    </li>
       <a class="nav-item nav-link link-body-emphasis" href="#">About Us</a>
     </nav>
   </div>
 </div>
 
 <main class="container">
-  <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+  <!-- <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
     <div class="col-lg-6 px-0">
       <h1 class="display-4 fst-italic">Inovasi Hukum Tata Negara</h1>
       <p class="lead my-3">Hukum Tata Negara menjadi tulang punggung bagi sebuah negara dalam menjalankan fungsi-fungsinya secara efektif dan efisien. Esensi dari hukum tata negara tidak hanya terbatas pada struktur kelembagaan pemerintahan,</p>
       <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p>
     </div>
-  </div>
+  </div> -->
 
-  <div class="row mb-2" data-masonry='{"percentPosition": true }'>
-    <div class="col-md-6">
+  <div class="row mb-2" >
+    <div class="col-md-6 article-section" id="hukum-tata-negara">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary-emphasis"><a style="text-decoration: none;" href="http://google.com">Hukum Tata Negara</a></strong>
           <h3 class="mb-2">Peran Hukum Tata Negara dalam Menjaga Keseimbangan Kekuasaan</h3>
           <div class="mb-1 text-body-secondary">8 Mei 2024</div>
           <p class="card-text mb-3">Salah satu aspek penting dari negara hukum, yang dikenal sebagai the rule of law atau rechtsstaat dalam bahasa Belanda dan Jerman, adalah pembatasan kekuasaan dalam penyelenggaraan negara.</p>
-          <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+          <a href="#" class="icon-link gap-1 icon-link-hover">
             Continue reading
             <svg class="bi"><use xlink:href="#chevron-right"/></svg>
           </a>
@@ -72,14 +72,14 @@
         </div> -->
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 article-section" id="hukum-perdata">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary-emphasis"><a style="text-decoration: none;" href="http://google.com">Hukum Perdata</a></strong>
             <h3 class="mb-2">Dinamika Politik dan Konstitusionalisme: Peran Hukum Tata Negara dalam Menjaga Keseimbangan Kekuasaan</h3>
             <div class="mb-1 text-body-secondary">8 Mei 2024</div>
             <p class="card-text mb-3">Hukum perdata merupakan salah satu cabang hukum yang memiliki peran penting dalam memberikan perlindungan terhadap hak dan kepentingan warga negara Indonesia.</p>
-            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+            <a href="#" class="icon-link gap-1 icon-link-hover">
               Continue reading
               <svg class="bi"><use xlink:href="#chevron-right"/></svg>
             </a>
@@ -89,14 +89,14 @@
           </div> -->
         </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 article-section" id="hukum-dagang">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary-emphasis"><a style="text-decoration: none;" href="http://google.com">Hukum Dagang</a></strong>
             <h3 class="mb-2">Relevansi Hukum Dagang dalam Meningkatkan Investasi dan Kemakmuran Ekonomi Nasional</h3>
             <div class="mb-1 text-body-secondary">8 Mei 2024</div>
             <p class="card-text mb-3">Hukum Dagang adalah kerangka hukum yang mengatur kegiatan bisnis, perdagangan, dan investasi di suatu negara. Di Indonesia, hukum dagang memiliki peran penting dalam mendorong investasi dan memperkuat kemakmuran ekonomi nasional.</p>
-            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+            <a href="#" class="icon-link gap-1 icon-link-hover">
               Continue reading
               <svg class="bi"><use xlink:href="#chevron-right"/></svg>
             </a>
@@ -106,14 +106,14 @@
           </div> -->
         </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 article-section" id="hukum-tata-negara">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary-emphasis"><a style="text-decoration: none;" href="http://google.com">Hukum Tata Negara</a></strong>
             <h3 class="mb-2">Memahami Esensi Hukum Tata Negara: Landasan Konstitusional dan Implikasinya pada Kedaulatan Negara</h3>
             <div class="mb-1 text-body-secondary">8 Mei 2024</div>
             <p class="card-text mb-3">Hukum Tata Negara menjadi tulang punggung bagi sebuah negara dalam menjalankan fungsi-fungsinya secara efektif dan efisien. Esensi dari hukum tata negara tidak hanya terbatas pada struktur kelembagaan pemerintahan, tetapi juga mencakup aspek-aspek yang lebih dalam seperti landasan konstitusional dan implikasinya terhadap kedaulatan negara.</p>
-            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+            <a href="#" class="icon-link gap-1 icon-link-hover">
               Continue reading
               <svg class="bi"><use xlink:href="#chevron-right"/></svg>
             </a>
@@ -123,14 +123,14 @@
           </div> -->
         </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 article-section" id="hukum-adat">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary-emphasis"><a style="text-decoration: none;" href="http://google.com">Hukum Adat</a></strong>
             <h3 class="mb-2">Hukum Adat dalam Sistem Peradilan Indonesia: Memahami Warisan Budaya yang Hidup</h3>
             <div class="mb-1 text-body-secondary">8 Mei 2024</div>
             <p class="card-text mb-3">Indonesia, sebagai negara yang kaya akan keberagaman budaya dan tradisi, memiliki sistem hukum yang unik yang mencerminkan kompleksitas sosial dan sejarahnya. Di antara berbagai sistem hukum yang ada di Indonesia, hukum adat memiliki peran yang khusus dan penting dalam menegakkan keadilan di tingkat lokal.</p>
-            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+            <a href="#" class="icon-link gap-1 icon-link-hover">
               Continue reading
               <svg class="bi"><use xlink:href="#chevron-right"/></svg>
             </a>
@@ -141,14 +141,14 @@
         </div>
     </div>
     
-    <div class="col-md-6">
+    <div class="col-md-6 article-section" id="hukum-tata-negara">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary-emphasis"><a style="text-decoration: none;" href="http://google.com">Hukum Tata Negara</a></strong>
             <h3 class="mb-2">Tantangan Kontemporer dalam Hukum Tata Negara: Perspektif Konstitusi dan Kekuasaan Pemerintah</h3>
             <div class="mb-1 text-body-secondary">8 Mei 2024</div>
             <p class="card-text mb-3">Saat ini tantangan kontemporer dalam hukum tata negara membuka jendela bagi refleksi mendalam tentang dinamika konstitusi dan wewenang pemerintah dalam berbagai konteks. Era modern telah menyuguhkan beragam perubahan dan kompleksitas yang menuntut adaptasi dalam kerangka hukum tata negara. </p>
-            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+            <a href="#" class="icon-link gap-1 icon-link-hover">
               Continue reading
               <svg class="bi"><use xlink:href="#chevron-right"/></svg>
             </a>
@@ -158,14 +158,14 @@
           </div> -->
         </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 article-section" id="hukum-tata-negara">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary-emphasis"><a style="text-decoration: none;" href="http://google.com">Hukum Tata Negara</a></strong>
             <h3 class="mb-2">Inovasi Hukum Tata Negara dalam Mewujudkan Pemerintahan yang Transparan dan Akuntabel: Tantangan dan Peluang di Era Digital</h3>
             <div class="mb-1 text-body-secondary">8 Mei 2024</div>
             <p class="card-text mb-3">Hukum Tata Negara memiliki peran yang sangat penting dalam menentukan struktur dan fungsi pemerintahan suatu negara. Melalui berbagai metode penelitian dan pendekatan yang holistik, Hukum Tata Negara membantu dalam memahami dan mengatur berbagai aspek kehidupan bernegara.</p>
-            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+            <a href="#" class="icon-link gap-1 icon-link-hover">
               Continue reading
               <svg class="bi"><use xlink:href="#chevron-right"/></svg>
             </a>
@@ -175,14 +175,14 @@
           </div> -->
         </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 article-section" id="hukum-adat">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary-emphasis"><a style="text-decoration: none;" href="http://google.com">Hukum Adat</a></strong>
             <h3 class="mb-2">Tantangan Globalisasi terhadap Keberlangsungan Hukum Adat</h3>
             <div class="mb-1 text-body-secondary">8 Mei 2024</div>
             <p class="card-text mb-3">Pada era globalisasi saat ini, dunia menjadi semakin terhubung dan saling terkait melalui berbagai bentuk interaksi ekonomi, sosial, dan budaya. Globalisasi telah membawa dampak yang signifikan pada berbagai aspek kehidupan manusia di seluruh dunia, termasuk dalam konteks hukum adat. </p>
-            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+            <a href="#" class="icon-link gap-1 icon-link-hover">
               Continue reading
               <svg class="bi"><use xlink:href="#chevron-right"/></svg>
             </a>
@@ -196,6 +196,24 @@
 
 
 </main>
+<script>
+    function showArticles(category) {
+        // Sembunyikan semua artikel
+        var articles = document.querySelectorAll('.article-section');
+        articles.forEach(function(article) {
+            article.style.display = 'none';
+        });
+
+        // Tampilkan artikel sesuai kategori yang dipilih
+        var selectedArticles = document.querySelectorAll('.article-section#' + category);
+        selectedArticles.forEach(function(article) {
+            article.style.display = 'block';
+            // Pindahkan artikel teratas jika kategori terpilih
+            article.parentElement.prepend(article);
+        });
+    }
+</script>
+
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>

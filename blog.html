@@ -243,8 +243,6 @@
         var selectedArticles = document.querySelectorAll('.article-section#' + category);
         selectedArticles.forEach(function(article) {
             article.style.display = 'block';
-            // Pindahkan artikel teratas jika kategori terpilih
-            article.parentElement.prepend(article);
         });
     }
 </script>
